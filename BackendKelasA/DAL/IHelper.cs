@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace BackendKelasA.DAL
 {
-    public interface IDokter : ICrud<IDokter>
+    public interface IHelper
     {
+        string GetConnectionString();
     }
 }
