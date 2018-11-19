@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace BackendKelasA.DAL
 {
+    //master interface
     public interface ICrud<T>
     {
         Task<IEnumerable<T>> GetAll();
